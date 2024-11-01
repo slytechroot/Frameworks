@@ -1,0 +1,50 @@
+To comply with the Federal Information Security Management Act (FISMA), organizations must implement security controls aligned with the National Institute of Standards and Technology (NIST) standards, particularly NIST SP 800-53. Here are some top security controls for FISMA compliance:
+1. Access Control (AC)
+
+    Principle of Least Privilege: Limit user access to the minimum necessary data and system functionality.
+    Multi-Factor Authentication (MFA): Required for access to sensitive systems and information.
+    Role-Based Access Control (RBAC): Define roles to ensure users have access only to what they need.
+
+2. Audit and Accountability (AU)
+
+    Logging and Monitoring: Enable detailed logging of system activities for audits and investigations.
+    Regular Log Review: Conduct automated log analysis and review for suspicious activity.
+    Retention of Audit Logs: Keep logs for a defined period to support investigations and meet compliance requirements.
+
+3. Configuration Management (CM)
+
+    Baseline Configuration: Establish secure baseline configurations for all systems.
+    Configuration Change Control: Use formal processes to manage changes to system configurations.
+    Continuous Monitoring: Regularly scan for and remediate misconfigurations and unauthorized changes.
+
+4. Incident Response (IR)
+
+    Incident Response Plan: Develop and implement a formal incident response plan with defined roles and processes.
+    Incident Detection and Reporting: Use tools for threat detection and a process for timely incident reporting.
+    Regular Incident Response Testing: Conduct tabletop exercises and incident simulations to improve response readiness.
+
+5. Risk Assessment (RA)
+
+    Periodic Risk Assessments: Conduct risk assessments to identify vulnerabilities and prioritize risks.
+    Vulnerability Management: Use vulnerability scanning and patch management to reduce risk exposure.
+    Risk Mitigation: Implement strategies to address identified risks, prioritizing high-impact areas.
+
+6. System and Information Integrity (SI)
+
+    Malware Protection: Deploy and regularly update antivirus and anti-malware software.
+    Security Monitoring: Use SIEM (Security Information and Event Management) tools for real-time monitoring.
+    Patch Management: Establish a patching schedule to address vulnerabilities promptly.
+
+7. Contingency Planning (CP)
+
+    Data Backup: Regularly back up data and systems in secure locations.
+    Disaster Recovery Plan (DRP): Develop a DRP to restore operations after a security incident or disaster.
+    Regular Testing: Test contingency and recovery plans to ensure reliability during actual incidents.
+
+8. System and Communications Protection (SC)
+
+    Encryption: Encrypt data at rest and in transit, especially sensitive information.
+    Boundary Defense: Use firewalls, IDS/IPS, and VPNs to secure network perimeters.
+    Network Segmentation: Segment networks to limit access and reduce lateral movement within the system.
+
+These controls help ensure data confidentiality, integrity, and availability within federal systems and meet FISMA’s robust security requirements.
