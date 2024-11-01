@@ -1,0 +1,60 @@
+For achieving and maintaining FedRAMP (Federal Risk and Authorization Management Program) compliance, cloud service providers (CSPs) must adhere to a rigorous set of security controls focused on protecting federal information within cloud systems. The primary framework guiding FedRAMP is NIST SP 800-53 with additional FedRAMP-specific requirements. Here are the top security controls critical to FedRAMP compliance:
+1. Access Control (AC)
+
+    Multi-Factor Authentication (MFA): Required for both privileged and non-privileged accounts to prevent unauthorized access.
+    Role-Based Access Control (RBAC): Enforce least privilege by restricting access based on job roles and responsibilities.
+    Continuous Access Monitoring: Regularly monitor access logs for unusual activity, unauthorized access attempts, and anomalies.
+
+2. Audit and Accountability (AU)
+
+    Logging and Continuous Monitoring: Enable detailed logging for all user and system activities within the cloud environment.
+    Audit Log Protection and Retention: Protect logs against unauthorized access and modifications, and retain them for a period specified by FedRAMP.
+    Automated Monitoring and Alerting: Use SIEM tools to automate monitoring and generate alerts for suspicious events.
+
+3. Configuration Management (CM)
+
+    Secure Baseline Configurations: Establish and enforce secure baseline configurations for all cloud resources.
+    Automated Configuration Scanning: Regularly scan configurations for drift, vulnerabilities, and misconfigurations.
+    Change Management: Implement strict change management processes to track, review, and approve any modifications to cloud configurations.
+
+4. Incident Response (IR)
+
+    Incident Response Plan: Develop and test an incident response plan tailored for cloud environments, with clearly defined roles and responsibilities.
+    Real-Time Incident Detection and Reporting: Use automated tools to detect, alert, and report incidents in real-time.
+    Regular Incident Response Exercises: Conduct frequent tabletop exercises and live simulations to ensure team readiness for cloud-specific threats.
+
+5. Risk Assessment (RA)
+
+    Continuous Risk Assessments: Conduct regular risk assessments to identify and prioritize threats to the cloud environment.
+    Vulnerability Scanning and Remediation: Perform frequent vulnerability scans and quickly remediate any detected weaknesses.
+    Third-Party Risk Management: Assess risks associated with any third-party services integrated into the cloud environment.
+
+6. System and Information Integrity (SI)
+
+    Malware Protection: Deploy anti-malware solutions and perform regular scans across the cloud environment.
+    Continuous Monitoring for Threats: Implement real-time threat detection and monitoring to identify anomalies.
+    Patch Management: Establish and enforce a patching schedule to address critical vulnerabilities as they are discovered.
+
+7. Contingency Planning (CP)
+
+    Data Backup and Recovery: Regularly back up data and implement a disaster recovery plan that ensures data availability and integrity.
+    Continuity of Operations Plan (COOP): Develop a COOP for maintaining operations during disruptions.
+    Regular DR Testing: Test disaster recovery procedures regularly to ensure functionality and reliability.
+
+8. System and Communications Protection (SC)
+
+    Data Encryption: Encrypt data both in transit and at rest using FIPS 140-2 compliant methods.
+    Boundary Protection: Implement controls like firewalls and IDS/IPS to protect cloud boundaries and prevent unauthorized access.
+    Network Segmentation: Use segmentation to limit access to sensitive data and reduce the impact of potential breaches.
+
+9. Personnel Security (PS)
+
+    Background Checks: Ensure that all personnel with access to federal data undergo background checks.
+    Security Training: Provide regular security awareness training tailored to cloud environments and federal data protection requirements.
+
+10. Security Assessment and Authorization (CA)
+
+    Continuous Monitoring and Reporting: Regularly assess the security posture and report to federal authorities.
+    Third-Party Assessment Organizations (3PAOs): Engage 3PAOs for annual audits and assessments as required by FedRAMP to validate compliance.
+
+These security controls are foundational for achieving and maintaining FedRAMP authorization, ensuring cloud services meet federal security requirements for confidentiality, integrity, and availability.
