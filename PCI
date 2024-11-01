@@ -1,0 +1,44 @@
+For PCI DSS (Payment Card Industry Data Security Standard) compliance, organizations that handle cardholder data must implement stringent security controls to protect payment information. Here are the top security controls that are critical for achieving and maintaining PCI compliance:
+1. Build and Maintain a Secure Network and Systems
+
+    Firewall Configuration: Implement robust firewall rules to segment cardholder data environments (CDE) and prevent unauthorized access.
+    Change Management: Establish and maintain a process for secure configuration changes to network components and systems.
+
+2. Protect Cardholder Data
+
+    Encryption of Cardholder Data: Encrypt cardholder data in transit using strong cryptography (e.g., TLS 1.2 or higher) and at rest to protect data confidentiality.
+    Data Masking and Truncation: Mask or truncate Primary Account Numbers (PANs) so that only authorized individuals can access full cardholder data.
+
+3. Maintain a Vulnerability Management Program
+
+    Patch Management: Regularly update all system components, applications, and anti-virus software to protect against known vulnerabilities.
+    Anti-Malware Protection: Deploy and update anti-malware tools across the network, including on servers and endpoints.
+
+4. Implement Strong Access Control Measures
+
+    Role-Based Access Control (RBAC): Limit access to cardholder data to those with a business need to know, using role-based permissions.
+    Multi-Factor Authentication (MFA): Require MFA for access to the cardholder data environment, especially for remote and administrative access.
+    Unique User IDs: Assign unique IDs to each user to ensure accountability and prevent shared or generic accounts.
+
+5. Regularly Monitor and Test Networks
+
+    Logging and Monitoring: Enable logging of all system activity that interacts with or affects cardholder data. Store logs securely and review them regularly.
+    File Integrity Monitoring (FIM): Use FIM to detect unauthorized changes to critical files and configurations in the CDE.
+    Vulnerability Scanning and Penetration Testing: Conduct regular internal and external vulnerability scans and annual penetration tests to identify and mitigate security gaps.
+
+6. Develop and Maintain a Secure Systems and Applications Program
+
+    Secure Development Practices: Integrate secure coding practices into the software development lifecycle, especially for systems that process or store cardholder data.
+    Application Security Testing: Conduct regular application security testing (e.g., static and dynamic analysis) to identify and fix vulnerabilities.
+
+7. Restrict Physical Access to Cardholder Data
+
+    Physical Security Controls: Use access control mechanisms such as badge access, video surveillance, and visitor logs to restrict physical access to CDEs.
+    Documented Access Policies: Maintain policies for securely storing, retrieving, and destroying physical cardholder data to prevent unauthorized access or data leaks.
+
+8. Maintain an Information Security Policy
+
+    Documented Security Policies: Develop, document, and maintain security policies covering data protection, access controls, incident response, and employee security training.
+    Employee Training and Awareness: Conduct regular security awareness training to ensure employees understand PCI requirements and the importance of protecting cardholder data.
+
+These controls ensure that systems handling cardholder data remain secure, helping organizations meet PCI DSS requirements and protect against data breaches.
